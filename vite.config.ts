@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import react from "@vitejs/plugin-react";
 import { runTypesGenerator } from "i18next-cli";
 import { defineConfig } from "vite";
@@ -28,4 +29,15 @@ const i18nTypesPlugin = () => ({
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), i18nTypesPlugin()],
+  test: {
+    include: ["./**/*.{test,spec}.{ts,tsx}"],
+    environment: "jsdom",
+    setupFiles: ["./src/test/setup.ts"],
+    testTimeout: 15_000,
+  },
+  resolve: {
+    alias: {
+      "@": new URL("src", import.meta.url).pathname,
+    },
+  },
 });
