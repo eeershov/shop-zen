@@ -30,6 +30,7 @@ const i18nTypesPlugin = () => ({
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/shop-zen/",
   plugins: [react(), svgr(), i18nTypesPlugin()],
   test: {
     include: ["./**/*.{test,spec}.{ts,tsx}"],
