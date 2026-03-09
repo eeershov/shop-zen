@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f6f6f6;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-height: 105px;
+  padding: 0 30px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.pageTitle {
+  margin: 0 !important;
+  font-family: "Cairo", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #202020 !important;
+  white-space: nowrap;
+}
+
+.searchInput {
+  flex: 1;
+  max-width: 1023px;
+}
+
+.searchIcon {
+  font-size: 14px;
+  opacity: 0.4;
+  filter: grayscale(1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 30px;
+}
+
+.loadingBar {
+  margin: -20px -30px 0;
+  line-height: 0;
+}
+
+.loadingBarPlaceholder {
+  height: 3px;
+  margin: -20px -30px 0;
+}
+
+.contentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionLabel {
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+}

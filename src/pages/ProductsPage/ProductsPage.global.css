@@ -1,0 +1,59 @@
+/* Search input */
+.products-header .ant-input-affix-wrapper {
+  height: 48px;
+  font-size: 14px;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 8px;
+}
+
+.products-header .ant-input-affix-wrapper:hover,
+.products-header .ant-input-affix-wrapper:focus,
+.products-header .ant-input-affix-wrapper-focused {
+  background: #f3f3f3;
+  border: none;
+  box-shadow: none;
+}
+
+.products-header .ant-input {
+  background: #f3f3f3;
+}
+
+/* Loading bar */
+.products-loading-bar .ant-progress-inner {
+  border-radius: 0;
+}
+
+.products-loading-bar .ant-progress-bg {
+  height: 3px !important;
+  border-radius: 0 !important;
+}
+
+/* Table header */
+.products-table .ant-table-thead > tr > th {
+  background: #fff;
+}
+
+/* Table rows border */
+.products-table .ant-table-tbody > tr > td {
+  border-color: #e2e2e2;
+}
+
+/* Pagination active page */
+.products-table .ant-pagination-item-active {
+  background: #797fea;
+  border-color: #797fea;
+}
+
+.products-table .ant-pagination-item-active a {
+  color: #fff;
+}
+
+/* Toolbar buttons */
+.products-toolbar .ant-btn {
+  height: 42px;
+}
+
+.products-toolbar .ant-btn-primary {
+  border-radius: 6px;
+}

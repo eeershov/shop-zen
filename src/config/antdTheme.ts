@@ -7,26 +7,26 @@ export const antdTheme: ThemeConfig = {
     fontFamily: "'Inter', sans-serif",
   },
   components: {
-    Card: {
-      borderRadiusLG: 40,
-    },
-    Input: {
-      borderRadius: 12,
-      controlHeight: 55,
-      fontSize: 18,
-      lineWidth: 1.5,
-      colorBorder: "#ededed",
-    },
     Button: {
       borderRadius: 12,
-      fontSize: 18,
       controlHeight: 54,
+      fontSize: 18,
+    },
+    Card: {
+      borderRadiusLG: 40,
     },
     Checkbox: {
       fontSize: 16,
     },
     Form: {
       labelFontSize: 18,
+    },
+    Input: {
+      borderRadius: 12,
+      colorBorder: "#ededed",
+      controlHeight: 55,
+      fontSize: 18,
+      lineWidth: 1.5,
     },
   },
 };

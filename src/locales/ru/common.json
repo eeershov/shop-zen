@@ -29,5 +29,40 @@
       "invalidCredentials": "Неверный логин или пароль",
       "serverError": "Произошла ошибка, попробуйте позже"
     }
+  },
+  "products": {
+    "title": "Товары",
+    "sectionLabel": "Все позиции",
+    "add": "Добавить",
+    "search": "Найти",
+    "pagination": {
+      "showing": "Показано {{from}}-{{to}} из {{total}}"
+    },
+    "columns": {
+      "name": "Наименование",
+      "vendor": "Вендор",
+      "sku": "Артикул",
+      "rating": "Оценка",
+      "price": "Цена, Р"
+    },
+    "modal": {
+      "title": "Добавить товар",
+      "fields": {
+        "name": "Наименование",
+        "price": "Цена",
+        "vendor": "Вендор",
+        "sku": "Артикул"
+      },
+      "errors": {
+        "nameRequired": "Введите наименование",
+        "priceRequired": "Введите цену",
+        "vendorRequired": "Введите вендора",
+        "skuRequired": "Введите артикул"
+      },
+      "success": "Товар успешно добавлен"
+    },
+    "errors": {
+      "loadFailed": "Не удалось загрузить товары"
+    }
   }
 }
