@@ -8,5 +8,26 @@
   "loading": "Загрузка...",
   "error": {
     "title": "Ошибка"
+  },
+  "login": {
+    "title": "Добро пожаловать!",
+    "subtitle": "Пожалуйста, авторизуйтесь",
+    "fields": {
+      "username": "Логин",
+      "password": "Пароль"
+    },
+    "button": {
+      "submit": "Войти",
+      "create": "Создать"
+    },
+    "remember": "Запомнить данные",
+    "divider": "или",
+    "noAccount": "Нет аккаунта?",
+    "errors": {
+      "usernameRequired": "Введите логин",
+      "passwordRequired": "Введите пароль",
+      "invalidCredentials": "Неверный логин или пароль",
+      "serverError": "Произошла ошибка, попробуйте позже"
+    }
   }
 }

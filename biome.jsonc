@@ -20,5 +20,22 @@
         "noUnusedVariables": "warn"
       }
     }
+  },
+  "overrides": [
+    {
+      "includes": ["**/*.d.ts"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useFilenamingConvention": "off"
+          }
+        }
+      }
+    }
+  ],
+  "css": {
+    "parser": {
+      "cssModules": true
+    }
   }
 }

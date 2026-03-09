@@ -1,0 +1,145 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.card {
+  width: 100%;
+  max-width: 527px !important;
+  box-shadow: 0 24px 32px rgba(0, 0, 0, 0.04);
+}
+
+.card :global(.ant-card-body) {
+  padding: 6px;
+}
+
+.innerFrame {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  width: 100%;
+  padding: 48px;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 35, 35, 0.03) 0%,
+    rgba(35, 35, 35, 0) 50%
+  );
+  border-radius: 34px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  font-size: 20px;
+  background:
+    linear-gradient(
+      360deg,
+      rgba(35, 35, 35, 0) 50%,
+      rgba(35, 35, 35, 0.06) 100%
+    ),
+    #ffffff;
+  border-radius: 100px;
+  box-shadow:
+    0px 0px 0px 2px #ffffff,
+    0px 12px 8px rgba(0, 0, 0, 0.03);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  margin: 0 !important;
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 110% !important;
+  color: #232323 !important;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.subtitle {
+  display: block;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 150%;
+  color: #e0e0e0 !important;
+  text-align: center;
+}
+
+.form {
+  width: 399px;
+}
+
+/* Field labels */
+.form :global(.ant-form-item-label > label) {
+  height: auto;
+  font-weight: 500;
+  color: #232323;
+  letter-spacing: -0.015em;
+}
+
+/* Inputs */
+.form :global(.ant-input-affix-wrapper) {
+  gap: 14px;
+  padding: 14px 16px;
+}
+
+/* Input text */
+.form :global(.ant-input) {
+  font-weight: 500;
+  color: #232323;
+  letter-spacing: -0.015em;
+}
+
+/* Checkbox */
+.form :global(.ant-checkbox-wrapper) {
+  font-weight: 500;
+  color: #9c9c9c;
+}
+
+/* Remove extra margin on last form items */
+.form :global(.ant-form-item:last-child) {
+  margin-bottom: 0;
+}
+
+.submitBtn {
+  height: 54px;
+  margin-top: 0;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  background:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.12) 100%
+    ),
+    #242edb !important;
+  border: 1px solid #367aff !important;
+  box-shadow:
+    0px 8px 8px rgba(54, 122, 255, 0.03),
+    inset 0px -2px 0px 1px rgba(0, 0, 0, 0.08) !important;
+}
+
+.prefixIcon {
+  color: #bfbfbf;
+}
+
+.footer {
+  width: 100%;
+  font-size: 18px;
+  color: #6c6c6c;
+  text-align: center;
+}
