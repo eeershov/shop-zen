@@ -183,6 +183,7 @@ export function ProductsPage() {
                   }).catch(() => undefined);
                 },
                 pageSize: LIMIT,
+                showSizeChanger: false,
                 showTotal: (total, [from, to]) =>
                   t(($) => $.products.pagination.showing, {
                     from,
